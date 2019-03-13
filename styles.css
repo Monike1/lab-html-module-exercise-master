@@ -1,0 +1,208 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  display: inline-block;
+  margin: 0 0 0 20px;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#header {
+  color: white;
+  background: rgb(51, 73, 95);
+  padding: 0 0 60px 0;
+}
+
+.header-links {
+  float: right;
+}
+
+.header-links a {
+  text-decoration: none;
+  color: white;
+}
+
+/* .header-links a:first-of-type {
+  margin: 0 10px;
+  padding: 12px;
+}
+
+.header-links a:nth-of-type(2) {
+  margin: 0 10px;
+  padding: 12px;
+} */
+
+#header-top {
+  margin: 0 20px 60px;
+  height: 40px;
+  line-height: 40px;
+}
+
+#header-top img {
+  height: 40px;
+}
+
+#header-top #searchbox {
+  height: 40px;
+  width: 50%;
+  font-size: 14px;
+  outline: none;
+  border: 1px solid #eee;
+  padding: 0 0 0 10px;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+#header-top #npm-logo {
+  position: absolute;
+  top: 5px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.orange {
+  background: rgb(240, 146, 51);
+}
+
+.red {
+  background: rgb(203, 56, 55);
+}
+
+.darkblue {
+  background: rgb(49, 68, 88);
+}
+
+#collaboration {
+  color: white;
+  background: rgb(51, 128, 185);
+  padding: 60px 0;
+}
+
+#collaboration .wrapper ul li {
+  list-style-position: inside;
+}
+
+.button {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 6px 20px;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.white-link {
+  color: white;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.float-right {
+  float: right;
+  margin-left: 10px;
+  width: 40%;
+}
+
+.float-left {
+  float: right;
+  margin-left: 10px;
+}
+
+#what-is-npm {
+  background: rgb(51, 73, 95);
+  padding: 60px 0;
+  color: white;
+}
+
+.center {
+  text-align: center;
+}
+
+.card {
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin-right: 3%;
+}
+
+.card a {
+  color: rgb(203, 56, 55);
+}
+
+#building-blocks {
+  padding: 60px 0;
+}
+
+#search-form {
+  position: absolute;
+  top: 5px;
+  left: 115px;
+  width: 60%;
+}
+
+.search-button {
+  background: rgb(203, 56, 55);
+  color: white;
+  font-size: 14px;
+  height: 40px;
+  border: 1px solid rgb(203, 56, 55);
+}
+
+.inline {
+  display: inline-block;
+}
+
+.relative {
+  position: relative;
+}
+
+.header-links {
+  margin-right: 60px;
+  
+}
+
+.header-links a {
+  display: inline-block;
+  padding: 4px 5px;
+  margin: 5px;
+}
+
+#bear-logo {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+}
